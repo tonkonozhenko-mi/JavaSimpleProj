@@ -19,7 +19,7 @@ public class CircleTest extends TestCase {
     public void testCircleleLength()
     {
         Circle C = new Circle(10.0);
-        assertEquals(2 * Math.PI * 10.0, C.length(), 0.0);
+        assertEquals(2 * Math.PI * 11.0, C.length(), 0.0);
     }
 
     public void testCircleSquare()
